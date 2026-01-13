@@ -1,0 +1,24 @@
+# Compilados
+*.class
+*.log
+/backend/target/
+/backend/bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Variáveis de Ambiente (SENSÍVEL)
+.env
+config.properties
+
+# Logs de erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SISTEMA 
+.vscode/
+Thumbs.db
