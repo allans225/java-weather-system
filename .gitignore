@@ -5,10 +5,9 @@
 /backend/bin/
 
 # IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-out/
+**/.idea/
+**/*.iml
+**/out/
 
 # Variáveis de Ambiente (SENSÍVEL)
 .env
