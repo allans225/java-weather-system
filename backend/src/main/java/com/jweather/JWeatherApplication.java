@@ -9,11 +9,15 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 import org.json.JSONObject;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class JWeatherApplication {
     private static final String API_BASE_URL = "https://api.weatherapi.com/v1/current.json";
 
     public static void main(String[] args) {
-        getWeather(getCity());
+        SpringApplication.run(JWeatherApplication.class, args);
     }
 
     public static void getWeather(String city) {

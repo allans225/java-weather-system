@@ -5,8 +5,8 @@ Este projeto é um sistema de consulta meteorológica desenvolvido em **Java Nat
 
 ## 🚀 Evolução do Projeto
 * **v1.0 (Atual):** Aplicação Console com gerenciamento manual de dependências e variáveis de ambiente.
-* **v2.0 (Planejado):** Implementação de Interface Gráfica (GUI) com JavaFX.
-* **v3.0 (Planejado):** Integração com a biblioteca de mapas **Leaflet** e migração para **Spring Boot** com automação via Maven/Gradle.
+* **v2.0 (Planejado):** Migração para **Spring Boot** com automação via Maven/Gradle e integração com a biblioteca de 
+mapas **Leaflet**.
 
 ## 🛠️ Configuração do Ambiente no IntelliJ
 
